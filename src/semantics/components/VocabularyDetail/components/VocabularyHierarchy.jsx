@@ -5,7 +5,7 @@ import { isEmpty } from '../../../util/commonUtils'
 
 const replaceVocabularyURL = (URL) => URL.replace(
   'https://w3id.org/italia/',
-  'https://ontopia.daf.teamdigitale.it/lodview/'
+  'https://ontopia-lodview.pdnd.italia.it/lodview/'
 )
 
 const CollapseToggler = ({isNotExtensible, isOpen = false}) => {

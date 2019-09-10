@@ -21,7 +21,7 @@ const mayBeURI = uri => uri && <a target="_blank" href={uri}>{`(${uri})`}</a>;
 const lodviewURL = url =>
   url.replace(
     "https://w3id.org/italia/",
-    "https://ontopia.daf.teamdigitale.it/lodview/"
+    "https://ontopia-lodview.pdnd.italia.it/lodview/"
   );
 
 const vocabularyError = "Errore durante il caricamento del vocabolario";

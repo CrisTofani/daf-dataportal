@@ -18,14 +18,14 @@ const mayBeURI = uri => uri && <a target="_blank" href={uri}>{`(${uri})`}</a>;
 
 const lodviewURL = url => url.replace(
   'https://w3id.org/italia/',
-  'https://ontopia.daf.teamdigitale.it/lodview/'
+  'https://ontopia-lodview.pdnd.italia.it/lodview/'
 )
 
 const lodeURL = url =>
-  `http://ontopia.daf.teamdigitale.it/lode/extract?url=${url}&lang=it`;
+  `https://ontopia-lodview.pdnd.italia.it/lode/extract?url=${url}&lang=it`;
 
 const webvowlURL = url =>
-  `http://ontopia.daf.teamdigitale.it/webvowl/#iri=${url}`;
+  `https://ontopia-lodview.pdnd.italia.it/webvowl/#iri=${url}`;
 
 const ontologyError = `Errore durante il caricamento dell'ontologia`;
 

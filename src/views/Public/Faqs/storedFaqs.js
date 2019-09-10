@@ -29,7 +29,7 @@ export default [{
   categoryLabel: 'Semantica',
   faqs: [{
     question: 'C’è una guida di riferimento per capire come valorizzarli correttamente?',
-    answer: 'Sì, Ad esempio questa è quella sulle strutture ricettive navigabile online https://ontopia.daf.teamdigitale.it/lodview/onto/ACCO.html'
+    answer: 'Sì, Ad esempio questa è quella sulle strutture ricettive navigabile online https://ontopia-lodview.pdnd.italia.it/lodview/onto/ACCO'
   },{
     question: 'Che relazione c’è tra il campo “categoria”, “dominio” e “sottodominio”? Dominio e sottodominio non sono vincolati? ',
     answer: 'No, sta al buon senso di chi metadata il dataset renderli coerenti.'
